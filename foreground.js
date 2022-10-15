@@ -8,7 +8,7 @@ let rarbgLink = "https://rarbgenter.org/torrents.php?search=" + imdbId;
 
 //button
 const button = document.createElement('a');
-button.target='_blank';
+//button.target='_blank';
 button.innerText = "  RARBG";
 button.href = rarbgLink;
 var p = document.getElementsByClassName('text-link text-footer')[0];
