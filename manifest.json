@@ -7,15 +7,28 @@
     },
     "content_scripts": [
         {
-            "matches": ["https://letterboxd.com/film/*"],
-            "js": ["foreground.js"]
+            "matches": [
+                "https://letterboxd.com/film/*"
+            ],
+            "js": [
+                "letterboxd.js"
+            ]
+        },
+        {
+            "matches": [
+                "https://www.imdb.com/title/*"
+            ],
+            "js": [
+                "imdb.js"
+            ]
         }
     ],
     "action": {
         "default_popup": "popup.html"
     },
     "host_permissions": [
-        "https://letterboxd.com/*"
+        "https://letterboxd.com/*",
+        "https://www.imdb.com/*"
     ],
     "permissions": [
         "tabs"
