@@ -12,3 +12,7 @@ Rarbg download button
 Searches with unique IMDb title ID
 
 ![image](https://user-images.githubusercontent.com/80418105/203863839-923db987-d95e-460e-86bd-b900c744e089.png)
+
+
+<br><br>
+Installing method: https://ui.vision/howto/install-chrome-extension-from-file
