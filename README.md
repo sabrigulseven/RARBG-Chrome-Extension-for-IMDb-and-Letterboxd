@@ -1,6 +1,6 @@
 # Rarbg Addon For IMDb and Letterboxd
 
-Chrome Extension for <a href="https://www.imdb.com/"> IMDb </a> and <a href="https://letterboxd.com/"> Letterboxd </a>
+RARBG Chrome Extension for <a href="https://www.imdb.com/"> IMDb </a> and <a href="https://letterboxd.com/"> Letterboxd </a>
 
 Rarbg download button
 <br>
