@@ -6,7 +6,7 @@ let rarbgLink = "https://rarbgenter.org/torrents.php?search=" + imdbId;
 const button = buttonRarbg(rarbgLink);
 
 var div = openDiv();
-var p = document.getElementsByClassName('sc-11c0820-3 imLyvv')[1];
+var p = document.getElementsByClassName('sc-11c0820-3 hwmGqL')[1]; // classname of all block
 
 div.appendChild(button);
 p.appendChild(div);
@@ -14,7 +14,8 @@ p.appendChild(div);
 
 function getImdbId() {
     let imdblink = window.location.href;
-    return imdblink.substring(27, 37);
+    let imdbId = imdblink.substring(27, 37).replace("/","");
+    return imdbId;
 }
 
 function buttonRarbg(rarbgLink) {
@@ -28,7 +29,7 @@ function buttonRarbg(rarbgLink) {
 
 function openDiv() {
     var div = document.createElement('div');
-    div.className = 'sc-f172496b-1 kXVeCj';
+    div.className = 'sc-f172496b-1 gPdlbt';  // Classname of ImdbPro
     //div.innerHTML = ' <div class="sc-f172496b-1 kXVeCj">  Text  </div>';
     return div;
 }

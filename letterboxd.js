@@ -20,7 +20,7 @@ function buttonMake(rarbgLink) {
 function url() {
     const bookmarbutton = document.getElementsByClassName("micro-button track-event");
     let imdblink = bookmarbutton.item(0).getAttribute("href");
-    let imdbId = imdblink.substring(26, 36);
+    let imdbId = imdblink.substring(26, 36).replace("/","");
     let rarbgLink = "https://rarbgenter.org/torrents.php?search=" + imdbId;
     return rarbgLink;
 }
